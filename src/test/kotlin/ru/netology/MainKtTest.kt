@@ -24,7 +24,7 @@ class MainKtTest {
         val typeCard = "Mastercard"
         val sumTransferInMonth = 0
         val sumMoneyTransfer = 100000
-        val expected = 99380
+        val expected = 99380.0
 
         val result = commission(typeCard, sumTransferInMonth, sumMoneyTransfer)
 
